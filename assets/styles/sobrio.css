@@ -1,0 +1,3 @@
+/* Mostrador style: Plain. */
+.mostrador-unit,.mostrador-notes,.mostrador-delivery,.mostrador-safety-short{color:var(--mostrador-text,inherit);opacity:.75}
+.mostrador-allergen-filter .is-active a{font-weight:600}

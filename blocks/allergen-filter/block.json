@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "mostrador/allergen-filter",
+	"title": "Without allergens",
+	"category": "woocommerce",
+	"icon": "filter",
+	"description": "Lets shoppers hide products that contain an allergen.",
+	"textdomain": "mostrador",
+	"attributes": {
+		"productId": { "type": "number", "default": 0 }
+	},
+	"supports": { "html": false, "align": false, "spacing": { "margin": true, "padding": true } },
+	"usesContext": [ "postId" ],
+	"editorScript": "mostrador-blocks"
+}

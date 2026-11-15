@@ -1,0 +1,66 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:8dfdd06f-986f-5c4a-acf5-c09393ec10cc",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-14T00:00:00Z",
+  "supplier": {
+   "name": "Facilo",
+   "url": [
+    "https://facilo.es"
+   ],
+   "contact": [
+    {
+     "email": "info@facilo.es"
+    }
+   ]
+  },
+  "component": {
+   "type": "application",
+   "name": "mostrador",
+   "version": "1.0.0",
+   "description": "Mostrador, NIF, unit price and Spanish shop tools for WooCommerce. Bundles one font, Bricolage Grotesque (SIL Open Font License 1.1), used only in the setup wizard. No other third-party code or images.",
+   "licenses": [
+    {
+     "license": {
+      "id": "GPL-2.0-or-later"
+     }
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "framework",
+   "name": "wordpress",
+   "scope": "required",
+   "description": "Host, version 6.6 or later, not bundled"
+  },
+  {
+   "type": "framework",
+   "name": "woocommerce",
+   "scope": "required",
+   "description": "Required plugin, version 9.0 or later, installed separately, not bundled"
+  },
+  {
+   "type": "platform",
+   "name": "php",
+   "scope": "required",
+   "description": "Version 7.4 or later, not bundled"
+  },
+  {
+   "type": "file",
+   "name": "bricolage-grotesque",
+   "scope": "required",
+   "description": "Font file assets/fonts/bricolage.woff2, bundled, by Mathieu Triay",
+   "licenses": [
+    {
+     "license": {
+      "id": "OFL-1.1"
+     }
+    }
+   ]
+  }
+ ]
+}

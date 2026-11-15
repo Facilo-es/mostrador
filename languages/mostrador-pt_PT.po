@@ -1,0 +1,1633 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mostrador – NIF, precio por unidad y recargo de equivalencia 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mostrador\n"
+"Last-Translator: Facilo <info@facilo.es>\n"
+"Language-Team: Facilo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-14T05:43:48+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: mostrador\n"
+
+#. Plugin Name of the plugin
+#: mostrador.php
+msgid "Mostrador – NIF, precio por unidad y recargo de equivalencia"
+msgstr "Mostrador – NIF, preço por unidade e recargo de equivalencia"
+
+#. Plugin URI of the plugin
+#: mostrador.php
+msgid "https://facilo.es/mostrador/"
+msgstr "https://facilo.es/mostrador/"
+
+#. Description of the plugin
+#: mostrador.php
+msgid "Get your WooCommerce shop ready to sell in Spain: NIF/NIE/CIF at checkout, IVA rates, price per unit, delivery times, product safety, allergens and your conditions in the order email."
+msgstr "Deixe a sua loja WooCommerce pronta para vender em Espanha: NIF/NIE/CIF no checkout, taxas de IVA, preço por unidade, prazos de entrega, segurança dos produtos, alergénios e as suas condições no e-mail da encomenda."
+
+#. Author of the plugin
+#: mostrador.php
+msgid "Facilo"
+msgstr "Facilo"
+
+#. Author URI of the plugin
+#: mostrador.php
+msgid "https://facilo.es"
+msgstr "https://facilo.es"
+
+#: data/allergens.php:11
+msgid "gluten"
+msgstr "glúten"
+
+#: data/allergens.php:12
+msgid "crustaceans"
+msgstr "crustáceos"
+
+#: data/allergens.php:13
+msgid "egg"
+msgstr "ovo"
+
+#: data/allergens.php:14
+msgid "fish"
+msgstr "peixe"
+
+#: data/allergens.php:15
+msgid "peanuts"
+msgstr "amendoim"
+
+#: data/allergens.php:16
+msgid "soy"
+msgstr "soja"
+
+#: data/allergens.php:17
+msgid "milk"
+msgstr "leite"
+
+#: data/allergens.php:18
+msgid "tree nuts"
+msgstr "frutos de casca rija"
+
+#: data/allergens.php:19
+msgid "celery"
+msgstr "aipo"
+
+#: data/allergens.php:20
+msgid "mustard"
+msgstr "mostarda"
+
+#: data/allergens.php:21
+msgid "sesame"
+msgstr "sésamo"
+
+#: data/allergens.php:22
+msgid "sulphur dioxide and sulphites"
+msgstr "dióxido de enxofre e sulfitos"
+
+#: data/allergens.php:23
+msgid "lupin"
+msgstr "tremoço"
+
+#: data/allergens.php:24
+msgid "molluscs"
+msgstr "moluscos"
+
+#: data/annex-b.php:12
+msgid "Model withdrawal form"
+msgstr "Formulário-modelo de livre resolução"
+
+#: data/annex-b.php:14
+msgid "(complete and return this form only if you wish to withdraw from the contract)"
+msgstr "(preencha e devolva este formulário apenas se pretender resolver o contrato)"
+
+#. translators: {shop} is replaced with the shop's name, full address and email. Keep it as is.
+#: data/annex-b.php:16
+msgid "– To {shop}:"
+msgstr "– À atenção de {shop}:"
+
+#: data/annex-b.php:17
+msgid "– I/We (*) hereby give notice that I/We (*) withdraw from my/our (*) contract of sale of the following goods/for the provision of the following service (*)"
+msgstr "– Eu/Nós (*) comunico/comunicamos (*) que resolvo/resolvemos (*) o meu/nosso (*) contrato de compra e venda dos seguintes bens/de prestação do seguinte serviço (*)"
+
+#: data/annex-b.php:18
+msgid "– Ordered on/received on (*)"
+msgstr "– Encomendado em/recebido em (*)"
+
+#: data/annex-b.php:19
+msgid "– Name of consumer(s)"
+msgstr "– Nome do(s) consumidor(es)"
+
+#: data/annex-b.php:20
+msgid "– Address of consumer(s)"
+msgstr "– Morada do(s) consumidor(es)"
+
+#: data/annex-b.php:21
+msgid "– Signature of consumer(s) (only if this form is notified on paper)"
+msgstr "– Assinatura do(s) consumidor(es) (apenas se o presente formulário for enviado em papel)"
+
+#: data/annex-b.php:22
+msgid "– Date"
+msgstr "– Data"
+
+#: data/annex-b.php:23
+msgid "(*) Delete as appropriate."
+msgstr "(*) Riscar o que não interessa."
+
+#: includes/class-admin.php:85
+#: includes/class-admin.php:112
+#: includes/class-admin.php:189
+#: includes/class-admin.php:420
+msgid "Settings"
+msgstr "Definições"
+
+#: includes/class-admin.php:110
+#: includes/class-admin.php:187
+msgid "Home"
+msgstr "Início"
+
+#: includes/class-admin.php:111
+#: includes/class-admin.php:188
+msgid "Shop check"
+msgstr "Revisão da loja"
+
+#: includes/class-admin.php:116
+#: includes/class-admin.php:555
+msgid "Setup"
+msgstr "Configuração"
+
+#: includes/class-admin.php:225
+msgid "Saved."
+msgstr "Guardado."
+
+#: includes/class-admin.php:237
+#: includes/class-admin.php:566
+#: includes/class-wizard.php:378
+#: includes/class-wizard.php:457
+msgid "NIF at checkout"
+msgstr "NIF no checkout"
+
+#: includes/class-admin.php:237
+msgid "Business customers get the invoice they need, so they buy from you."
+msgstr "Os clientes empresa recebem a fatura de que precisam e por isso compram na sua loja."
+
+#: includes/class-admin.php:238
+#: includes/class-wizard.php:462
+msgid "VAT and shipping under the price"
+msgstr "IVA e portes por baixo do preço"
+
+#: includes/class-admin.php:238
+msgid "Shoppers see the final price, with no surprises at checkout."
+msgstr "Os clientes veem o preço final, sem surpresas no checkout."
+
+#: includes/class-admin.php:239
+#: includes/class-admin.php:612
+#: includes/class-productfields.php:140
+#: includes/class-unitprice.php:244
+#: includes/class-wizard.php:465
+msgid "Price per unit"
+msgstr "Preço por unidade"
+
+#: includes/class-admin.php:239
+msgid "Shoppers compare per kilo or litre and see your good value."
+msgstr "Os clientes comparam por quilo ou litro e veem como o seu preço compensa."
+
+#. translators: %s: delivery time.
+#: includes/class-admin.php:240
+#: includes/class-admin.php:616
+#: includes/class-admin.php:617
+#: includes/class-productfields.php:194
+#: includes/class-productfields.php:586
+#: includes/class-sitecheck.php:444
+#: includes/class-sitecheck.php:452
+#: includes/class-wizard.php:400
+#: includes/class-wizard.php:470
+msgid "Delivery time"
+msgstr "Prazo de entrega"
+
+#: includes/class-admin.php:240
+msgid "Shoppers know when it arrives, and fewer ask you."
+msgstr "Os clientes sabem quando recebem a encomenda e perguntam-lhe menos."
+
+#: includes/class-admin.php:241
+#: includes/class-admin.php:628
+#: includes/class-productfields.php:255
+#: includes/class-producttabs.php:130
+#: includes/class-producttabs.php:243
+#: includes/class-wizard.php:473
+msgid "Product safety"
+msgstr "Segurança do produto"
+
+#: includes/class-admin.php:241
+msgid "Manufacturer and warnings on every product, as marketplaces ask."
+msgstr "Fabricante e avisos em todos os produtos, como pedem os marketplaces."
+
+#: includes/class-admin.php:242
+#: includes/class-admin.php:634
+#: includes/class-wizard.php:402
+#: includes/class-wizard.php:476
+msgid "Food information and allergens"
+msgstr "Informação alimentar e alergénios"
+
+#: includes/class-admin.php:242
+msgid "Shoppers with allergies buy with confidence."
+msgstr "Os clientes com alergias compram com confiança."
+
+#: includes/class-admin.php:243
+msgid "Conditions in the order email"
+msgstr "Condições no e-mail da encomenda"
+
+#: includes/class-admin.php:243
+msgid "Your customer gets your conditions in writing, with no extra work."
+msgstr "O seu cliente recebe as suas condições por escrito, sem trabalho extra."
+
+#: includes/class-admin.php:269
+msgid "Your shop, ready to sell in Spain"
+msgstr "A sua loja, pronta para vender em Espanha"
+
+#: includes/class-admin.php:274
+#: includes/class-wizard.php:255
+#: includes/class-wizard.php:306
+msgid "Get your shop ready to sell in Spain"
+msgstr "Deixe a sua loja pronta para vender em Espanha"
+
+#: includes/class-admin.php:275
+#: includes/class-wizard.php:307
+msgid "In five minutes you set up taxes, checkout and your product information. You can skip any step and change it later."
+msgstr "Em cinco minutos configura os impostos, o checkout e a informação dos seus produtos. Pode saltar qualquer passo e alterá-lo mais tarde."
+
+#: includes/class-admin.php:276
+#: includes/class-wizard.php:116
+msgid "Start"
+msgstr "Começar"
+
+#. translators: %d: number of checks.
+#: includes/class-admin.php:281
+#, php-format
+msgid "%d thing to check"
+msgid_plural "%d things to check"
+msgstr[0] "%d ponto a rever"
+msgstr[1] "%d pontos a rever"
+
+#: includes/class-admin.php:283
+msgid "Everything checked"
+msgstr "Tudo verificado"
+
+#. translators: 1: checks ready, 2: total checks that apply.
+#: includes/class-admin.php:287
+#, php-format
+msgid "%1$d of %2$d ready."
+msgstr "%1$d de %2$d prontos."
+
+#: includes/class-admin.php:291
+#: includes/class-wizard.php:492
+msgid "See the check"
+msgstr "Ver a revisão"
+
+#: includes/class-admin.php:295
+msgid "What your shop shows"
+msgstr "O que a sua loja mostra"
+
+#: includes/class-admin.php:299
+msgid "On"
+msgstr "Ligado"
+
+#: includes/class-admin.php:299
+msgid "Off"
+msgstr "Desligado"
+
+#: includes/class-admin.php:306
+msgid "Change settings"
+msgstr "Alterar definições"
+
+#: includes/class-admin.php:306
+#: includes/class-admin.php:556
+msgid "Run the setup again"
+msgstr "Repetir a configuração"
+
+#: includes/class-admin.php:323
+msgid "Your shop check"
+msgstr "A revisão da sua loja"
+
+#: includes/class-admin.php:324
+msgid "This is a technical check, not legal advice. It helps you see what's missing."
+msgstr "Esta é uma verificação técnica, não é aconselhamento jurídico. Ajuda a ver o que falta."
+
+#: includes/class-admin.php:355
+#: includes/class-sitecheck.php:319
+#: includes/class-sitecheck.php:385
+#: includes/class-sitecheck.php:414
+#: includes/class-sitecheck.php:427
+#: includes/class-sitecheck.php:516
+#: includes/class-sitecheck.php:536
+msgid "View"
+msgstr "Ver"
+
+#: includes/class-admin.php:397
+msgid "Shop"
+msgstr "Loja"
+
+#: includes/class-admin.php:398
+#: includes/class-sitecheck.php:70
+msgid "Checkout"
+msgstr "Checkout"
+
+#: includes/class-admin.php:399
+#: includes/class-sitecheck.php:72
+msgid "Products"
+msgstr "Produtos"
+
+#: includes/class-admin.php:400
+#: includes/class-sitecheck.php:71
+msgid "Emails"
+msgstr "E-mails"
+
+#: includes/class-admin.php:401
+#: includes/class-wizard.php:234
+msgid "Look"
+msgstr "Aspeto"
+
+#: includes/class-admin.php:420
+msgid "Every part can be turned off. A part that's off adds nothing to your shop's pages."
+msgstr "Cada parte pode ser desativada. Uma parte desativada não acrescenta nada às páginas da sua loja."
+
+#: includes/class-admin.php:437
+msgid "Save changes"
+msgstr "Guardar alterações"
+
+#: includes/class-admin.php:502
+msgid "Mainland Spain and the Balearic Islands"
+msgstr "Espanha continental e Ilhas Baleares"
+
+#: includes/class-admin.php:503
+msgid "Canary Islands"
+msgstr "Ilhas Canárias"
+
+#: includes/class-admin.php:516
+msgid "Optional"
+msgstr "Opcional"
+
+#: includes/class-admin.php:517
+msgid "Required"
+msgstr "Obrigatório"
+
+#: includes/class-admin.php:518
+msgid "Required if a company is given"
+msgstr "Obrigatório se for indicada uma empresa"
+
+#: includes/class-admin.php:519
+msgid "Don't ask"
+msgstr "Não pedir"
+
+#: includes/class-admin.php:536
+#: includes/class-admin.php:624
+msgid "— None —"
+msgstr "— Nenhum —"
+
+#: includes/class-admin.php:547
+#: includes/class-wizard.php:229
+msgid "Where is your shop?"
+msgstr "Onde fica a sua loja?"
+
+#. translators: 1: territory, 2: IGIC or IPSI.
+#: includes/class-admin.php:552
+#: includes/class-sitecheck.php:318
+#: includes/class-wizard.php:291
+#: includes/class-wizard.php:293
+#: includes/class-wizard.php:295
+#, php-format
+msgid "In %1$s, %2$s applies, not VAT. Mostrador doesn't create those rates, but everything else works the same."
+msgstr "Em %1$s aplica-se %2$s, e não o IVA. O Mostrador não cria essas taxas, mas tudo o resto funciona da mesma forma."
+
+#: includes/class-admin.php:557
+msgid "When you delete the plugin"
+msgstr "Ao eliminar o plugin"
+
+#: includes/class-admin.php:558
+msgid "Delete all Mostrador data when uninstalling"
+msgstr "Eliminar todos os dados do Mostrador ao desinstalar"
+
+#: includes/class-admin.php:558
+msgid "Removes the settings and the tax rates Mostrador created. Tax IDs on orders and product details are always kept."
+msgstr "Remove as definições e as taxas de imposto criadas pelo Mostrador. Os NIF das encomendas e os dados dos produtos são sempre mantidos."
+
+#: includes/class-admin.php:568
+msgid "Also ask customers in other EU countries"
+msgstr "Pedir também a clientes de outros países da UE"
+
+#: includes/class-admin.php:568
+msgid "The field becomes \"NIF / VAT\". Numbers from other countries get a format check."
+msgstr "O campo passa a \"NIF / VAT\". Os números de outros países são verificados quanto ao formato."
+
+#: includes/class-admin.php:570
+#: includes/class-wizard.php:380
+msgid "Another plugin already adds a NIF field, so Mostrador doesn't add a second one."
+msgstr "Outro plugin já acrescenta um campo de NIF, por isso o Mostrador não acrescenta um segundo."
+
+#: includes/class-admin.php:574
+#: includes/class-wizard.php:384
+msgid "Order button text"
+msgstr "Texto do botão de encomenda"
+
+#: includes/class-admin.php:576
+#: includes/class-wizard.php:386
+msgid "Other"
+msgstr "Outro"
+
+#: includes/class-admin.php:578
+#: includes/class-wizard.php:388
+msgid "Your text"
+msgstr "O seu texto"
+
+#. translators: %s: button text.
+#: includes/class-admin.php:580
+#: includes/class-sitecheck.php:353
+msgid "The order button doesn't say that the order means paying."
+msgstr "O botão de encomenda não deixa claro que encomendar implica pagar."
+
+#: includes/class-admin.php:582
+#: includes/class-wizard.php:391
+msgid "The law asks for a button that makes clear the order means paying (art. 98.2 of the Spanish consumer protection law)."
+msgstr "A lei exige um botão que deixe claro que a encomenda implica pagar (art. 98.2 da lei espanhola de defesa dos consumidores)."
+
+#: includes/class-admin.php:585
+msgid "Checkout ticks"
+msgstr "Caixas de aceitação no checkout"
+
+#: includes/class-admin.php:586
+#: includes/class-wizard.php:390
+msgid "Terms tick names your purchase conditions and withdrawal policy"
+msgstr "A caixa dos termos indica as suas condições de compra e a política de livre resolução"
+
+#: includes/class-admin.php:587
+msgid "Digital content tick"
+msgstr "Caixa de conteúdo digital"
+
+#: includes/class-admin.php:587
+msgid "Shown only when the cart has a product you marked as digital content or a service."
+msgstr "Só aparece quando o carrinho tem um produto que marcou como conteúdo digital ou serviço."
+
+#: includes/class-admin.php:595
+msgid "Under the price"
+msgstr "Por baixo do preço"
+
+#: includes/class-admin.php:596
+msgid "VAT and shipping note"
+msgstr "Nota de IVA e portes"
+
+#: includes/class-admin.php:596
+msgid "\"VAT included · Shipping not included\", or \"Free shipping\"."
+msgstr "\"IVA incluído · Portes não incluídos\", ou \"Portes grátis\"."
+
+#: includes/class-admin.php:597
+msgid "Also in product lists"
+msgstr "Também nas listas de produtos"
+
+#: includes/class-admin.php:598
+msgid "Shipping policy page (linked from the note)"
+msgstr "Página da política de envios (ligada a partir da nota)"
+
+#: includes/class-admin.php:604
+msgid "Shipping classes that ship free"
+msgstr "Classes de envio com portes grátis"
+
+#: includes/class-admin.php:613
+#: includes/class-wizard.php:399
+msgid "Price per unit (per kilo, litre, metre…)"
+msgstr "Preço por unidade (por quilo, litro, metro…)"
+
+#: includes/class-admin.php:613
+msgid "Fill in the quantity in each product's Mostrador panel."
+msgstr "Indique a quantidade no painel Mostrador de cada produto."
+
+#: includes/class-admin.php:618
+msgid "Your delivery times, one per line"
+msgstr "Os seus prazos de entrega, um por linha"
+
+#: includes/class-admin.php:620
+#: includes/class-wizard.php:403
+msgid "Usual delivery time"
+msgstr "Prazo de entrega habitual"
+
+#: includes/class-admin.php:625
+msgid "Time for products on backorder"
+msgstr "Prazo para produtos em encomenda pendente"
+
+#: includes/class-admin.php:625
+msgid "2-3 weeks"
+msgstr "2-3 semanas"
+
+#: includes/class-admin.php:629
+#: includes/class-wizard.php:401
+msgid "Product safety (manufacturer and warnings)"
+msgstr "Segurança do produto (fabricante e avisos)"
+
+#: includes/class-admin.php:630
+msgid "Short manufacturer line under the add to cart button"
+msgstr "Linha curta do fabricante por baixo do botão de adicionar ao carrinho"
+
+#: includes/class-admin.php:633
+msgid "Food"
+msgstr "Alimentos"
+
+#: includes/class-admin.php:635
+msgid "Allergen icons"
+msgstr "Ícones de alergénios"
+
+#: includes/class-admin.php:643
+#: includes/class-wizard.php:233
+msgid "Order emails"
+msgstr "E-mails de encomenda"
+
+#: includes/class-admin.php:644
+msgid "Add your conditions to the order email"
+msgstr "Acrescentar as suas condições ao e-mail da encomenda"
+
+#: includes/class-admin.php:645
+#: includes/class-wizard.php:424
+msgid "So your customer gets your conditions in writing, which is what the law asks for."
+msgstr "Assim o seu cliente recebe as suas condições por escrito, que é o que a lei exige."
+
+#: includes/class-admin.php:648
+msgid "Your pages"
+msgstr "As suas páginas"
+
+#: includes/class-admin.php:649
+msgid "Withdrawal information page"
+msgstr "Página de informação sobre livre resolução"
+
+#. translators: %s: page title or "none".
+#: includes/class-admin.php:654
+#, php-format
+msgid "Purchase conditions page: %s (set in WooCommerce → Settings → Advanced)."
+msgstr "Página de condições de compra: %s (definida em WooCommerce → Definições → Avançado)."
+
+#. translators: %s: page title or "none".
+#: includes/class-admin.php:654
+msgid "none"
+msgstr "nenhuma"
+
+#: includes/class-admin.php:657
+#: includes/class-wizard.php:416
+msgid "Add to the first email of each order:"
+msgstr "Acrescentar ao primeiro e-mail de cada encomenda:"
+
+#. translators: %d: 1 to 4.
+#: includes/class-admin.php:663
+#, php-format
+msgid "Page %d"
+msgstr "Página %d"
+
+#: includes/class-admin.php:667
+#: includes/class-wizard.php:420
+msgid "Withdrawal form"
+msgstr "Formulário de livre resolução"
+
+#: includes/class-admin.php:667
+msgid "The model form from the law, with your shop's name, address and email."
+msgstr "O formulário-modelo da lei, com o nome, a morada e o e-mail da sua loja."
+
+#: includes/class-admin.php:668
+msgid "Only in the first email of each order"
+msgstr "Só no primeiro e-mail de cada encomenda"
+
+#: includes/class-admin.php:676
+msgid "Style of the notes and tabs"
+msgstr "Estilo das notas e separadores"
+
+#: includes/class-admin.php:708
+#: includes/class-wizard.php:500
+msgid "You can't change these settings."
+msgstr "Não pode alterar estas definições."
+
+#: includes/class-admin.php:784
+msgid "For shops that sell to other businesses or have many products."
+msgstr "Para lojas que vendem a empresas ou têm muitos produtos."
+
+#: includes/class-admin.php:786
+msgid "Automatic equivalence surcharge for your retail customers"
+msgstr "Recargo de equivalencia automático para os seus clientes retalhistas"
+
+#: includes/class-admin.php:787
+msgid "Income tax withholding on sales to companies and professionals"
+msgstr "Retenção de IRPF nas vendas a empresas e profissionais"
+
+#: includes/class-admin.php:788
+msgid "Checks EU VAT numbers and sells without VAT to EU businesses"
+msgstr "Verifica números de IVA da UE e vende sem IVA a empresas da UE"
+
+#: includes/class-admin.php:789
+msgid "Fill in hundreds of products at once, or with a CSV"
+msgstr "Preencha centenas de produtos de uma só vez, ou com um CSV"
+
+#: includes/class-admin.php:790
+msgid "A quarterly summary ready for your accountant"
+msgstr "Um resumo trimestral pronto para o seu contabilista"
+
+#: includes/class-admin.php:791
+msgid "Metrics on what's missing in your products"
+msgstr "Métricas do que falta nos seus produtos"
+
+#: includes/class-admin.php:792
+msgid "6 styles and your colours"
+msgstr "6 estilos e as suas cores"
+
+#: includes/class-admin.php:799
+msgid "€49 a year, one shop"
+msgstr "49 € por ano, uma loja"
+
+#: includes/class-admin.php:800
+msgid "€99 a year, up to 10 shops"
+msgstr "99 € por ano, até 10 lojas"
+
+#: includes/class-admin.php:801
+msgid "Taxes extra where they apply. 14 days to ask for a refund."
+msgstr "Impostos não incluídos, onde se apliquem. 14 dias para pedir o reembolso."
+
+#: includes/class-admin.php:802
+msgid "Buy Pro"
+msgstr "Comprar o Pro"
+
+#: includes/class-admin.php:823
+msgid "You have used Mostrador for a month. If you sell to other businesses, Mostrador Pro adds the equivalence surcharge, income tax withholding and a quarterly summary for your accountant."
+msgstr "Já usa o Mostrador há um mês. Se vende a empresas, o Mostrador Pro acrescenta o recargo de equivalencia, a retenção de IRPF e um resumo trimestral para o seu contabilista."
+
+#: includes/class-admin.php:824
+msgid "See Pro"
+msgstr "Ver o Pro"
+
+#: includes/class-admin.php:824
+msgid "Don't show again"
+msgstr "Não mostrar novamente"
+
+#. translators: %s: allergen name, like "gluten".
+#: includes/class-allergenfilter.php:152
+#, php-format
+msgid "Without %s"
+msgstr "Sem %s"
+
+#: includes/class-allergenfilter.php:164
+#: includes/class-allergenwidget.php:23
+#: includes/class-allergenwidget.php:38
+#: includes/class-allergenwidget.php:54
+#: assets/js/blocks.js:19
+msgid "Without allergens"
+msgstr "Sem alergénios"
+
+#: includes/class-allergenwidget.php:24
+msgid "Lets shoppers hide products that contain an allergen."
+msgstr "Permite aos clientes ocultar produtos que contêm um alergénio."
+
+#: includes/class-allergenwidget.php:53
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-catalog.php:56
+#: includes/class-catalog.php:58
+msgid "Manufacturers"
+msgstr "Fabricantes"
+
+#. translators: %d: number of products.
+#: includes/class-catalog.php:57
+#: includes/class-productfields.php:259
+#: includes/class-producttabs.php:205
+#: includes/class-producttabs.php:264
+#: includes/class-sitecheck.php:436
+msgid "Manufacturer"
+msgstr "Fabricante"
+
+#: includes/class-catalog.php:59
+msgid "Add manufacturer"
+msgstr "Adicionar fabricante"
+
+#: includes/class-catalog.php:60
+msgid "Edit manufacturer"
+msgstr "Editar fabricante"
+
+#: includes/class-catalog.php:61
+msgid "Search manufacturers"
+msgstr "Pesquisar fabricantes"
+
+#: includes/class-catalog.php:62
+msgid "No manufacturers yet."
+msgstr "Ainda não há fabricantes."
+
+#. translators: %d: number of products.
+#: includes/class-catalog.php:85
+#: includes/class-producttabs.php:347
+#: includes/class-sitecheck.php:438
+msgid "Allergens"
+msgstr "Alergénios"
+
+#: includes/class-catalog.php:86
+msgid "Allergen"
+msgstr "Alergénio"
+
+#: includes/class-catalog.php:113
+msgid "Postal address"
+msgstr "Morada postal"
+
+#: includes/class-catalog.php:114
+msgid "Email or contact web"
+msgstr "E-mail ou site de contacto"
+
+#: includes/class-catalog.php:115
+msgid "Responsible person in the EU: name"
+msgstr "Responsável na UE: nome"
+
+#: includes/class-catalog.php:115
+msgid "Only when the manufacturer is outside the EU."
+msgstr "Só quando o fabricante está fora da UE."
+
+#: includes/class-catalog.php:116
+msgid "Responsible person in the EU: address"
+msgstr "Responsável na UE: morada"
+
+#: includes/class-catalog.php:117
+msgid "Responsible person in the EU: email or web"
+msgstr "Responsável na UE: e-mail ou site"
+
+#: includes/class-checkout.php:107
+msgid "purchase conditions"
+msgstr "condições de compra"
+
+#: includes/class-checkout.php:108
+msgid "withdrawal policy"
+msgstr "política de livre resolução"
+
+#. translators: 1: link to the purchase conditions, 2: link to the withdrawal policy.
+#: includes/class-checkout.php:110
+#, php-format
+msgid "I have read and accept the %1$s and the %2$s."
+msgstr "Li e aceito as %1$s e a %2$s."
+
+#: includes/class-checkout.php:133
+msgid "I want to receive the content or the service now, and I understand that once it starts I lose my right of withdrawal."
+msgstr "Quero receber o conteúdo ou o serviço já e compreendo que, depois de começar, perco o direito de livre resolução."
+
+#: includes/class-checkout.php:225
+#: includes/class-checkout.php:307
+msgid "Please tick the box about receiving the content or service now."
+msgstr "Assinale a caixa sobre receber já o conteúdo ou o serviço."
+
+#. translators: %s: delivery time, like "1-2 weeks".
+#: includes/class-delivery.php:73
+#, php-format
+msgid "Available in %s"
+msgstr "Disponível em %s"
+
+#. translators: %s: delivery time, like "24/48 hours".
+#: includes/class-delivery.php:80
+#, php-format
+msgid "Delivery in %s"
+msgstr "Entrega em %s"
+
+#: includes/class-delivery.php:121
+#: includes/class-delivery.php:154
+msgid "Delivery"
+msgstr "Entrega"
+
+#: includes/class-emails.php:190
+#: includes/class-emails.php:221
+msgid "Your consent"
+msgstr "O seu consentimento"
+
+#: includes/class-emails.php:194
+#: includes/class-emails.php:225
+msgid "Your purchase conditions"
+msgstr "As suas condições de compra"
+
+#: includes/class-nif.php:86
+msgid "NIF / VAT"
+msgstr "NIF / VAT"
+
+#: includes/class-nif.php:86
+#: includes/class-nif.php:443
+#: includes/class-nif.php:450
+#: includes/class-nif.php:466
+msgid "NIF / NIE / CIF"
+msgstr "NIF / NIE / CIF"
+
+#: includes/class-nif.php:134
+msgid "We need your NIF, NIE or CIF to place the order."
+msgstr "Precisamos do seu NIF, NIE ou CIF para fazer a encomenda."
+
+#: includes/class-nif.php:137
+#: includes/class-nif.php:501
+msgid "The NIF, NIE or CIF isn't right. Check that the letter or the last digit is correct."
+msgstr "O NIF, NIE ou CIF não está correto. Verifique se a letra ou o último dígito estão certos."
+
+#: includes/class-nif.php:154
+#: includes/class-nif.php:219
+msgid "For your invoice"
+msgstr "Para a sua fatura"
+
+#: includes/class-nif.php:212
+msgid "(optional)"
+msgstr "(opcional)"
+
+#: includes/class-pricenotes.php:101
+msgid "VAT included"
+msgstr "IVA incluído"
+
+#: includes/class-pricenotes.php:101
+msgid "VAT not included"
+msgstr "IVA não incluído"
+
+#: includes/class-pricenotes.php:118
+msgid "Free shipping"
+msgstr "Portes grátis"
+
+#: includes/class-pricenotes.php:120
+msgid "Shipping not included"
+msgstr "Portes não incluídos"
+
+#. translators: %s: tax amount.
+#: includes/class-pricenotes.php:160
+#, php-format
+msgid "(VAT included: %s)"
+msgstr "(IVA incluído: %s)"
+
+#: includes/class-privacy.php:33
+msgid "When you order, we store the tax ID (NIF, NIE or CIF) you give at checkout with your order and, if you have an account, in your account, so we can issue the invoice the law requires. When you buy digital content, we store that you agreed to receive it straight away and lose the right to withdraw, with the date and the text you accepted."
+msgstr "Quando encomenda, guardamos o número de identificação fiscal (NIF, NIE ou CIF) que indica no checkout junto com a sua encomenda e, se tiver conta, na sua conta, para podermos emitir a fatura que a lei exige. Quando compra conteúdo digital, guardamos que aceitou recebê-lo de imediato e perder o direito de livre resolução, com a data e o texto que aceitou."
+
+#: includes/class-privacy.php:45
+#: includes/class-privacy.php:59
+msgid "Mostrador (tax ID and consent)"
+msgstr "Mostrador (NIF e consentimento)"
+
+#: includes/class-privacy.php:101
+msgid "Tax ID"
+msgstr "NIF"
+
+#: includes/class-privacy.php:125
+msgid "Digital content consent"
+msgstr "Consentimento de conteúdo digital"
+
+#: includes/class-privacy.php:132
+msgid "Order tax ID and consent"
+msgstr "NIF e consentimento da encomenda"
+
+#: includes/class-privacy.php:182
+msgid "Tax IDs and consents on orders were kept, because WooCommerce is set to keep order data."
+msgstr "Os NIF e consentimentos das encomendas foram mantidos, porque o WooCommerce está configurado para manter os dados das encomendas."
+
+#: includes/class-productfields.php:37
+msgid "Energy"
+msgstr "Energia"
+
+#: includes/class-productfields.php:38
+msgid "Fat"
+msgstr "Lípidos"
+
+#: includes/class-productfields.php:39
+msgid "of which saturates"
+msgstr "dos quais saturados"
+
+#: includes/class-productfields.php:40
+msgid "Carbohydrate"
+msgstr "Hidratos de carbono"
+
+#: includes/class-productfields.php:41
+msgid "of which sugars"
+msgstr "dos quais açúcares"
+
+#: includes/class-productfields.php:42
+msgid "Protein"
+msgstr "Proteínas"
+
+#: includes/class-productfields.php:43
+msgid "Salt"
+msgstr "Sal"
+
+#: includes/class-productfields.php:79
+msgid "Choose the label image"
+msgstr "Escolher a imagem do rótulo"
+
+#: includes/class-productfields.php:80
+msgid "Use this image"
+msgstr "Usar esta imagem"
+
+#: includes/class-productfields.php:93
+msgid "Mostrador"
+msgstr "Mostrador"
+
+#. translators: %s: the shop's default delivery time.
+#: includes/class-productfields.php:109
+#, php-format
+msgid "Shop default (%s)"
+msgstr "Predefinição da loja (%s)"
+
+#. translators: %s: the shop's default delivery time.
+#: includes/class-productfields.php:109
+msgid "Shop default"
+msgstr "Predefinição da loja"
+
+#: includes/class-productfields.php:144
+msgid "Unit"
+msgstr "Unidade"
+
+#: includes/class-productfields.php:145
+msgid "No unit price"
+msgstr "Sem preço por unidade"
+
+#: includes/class-productfields.php:152
+#: includes/class-productfields.php:553
+msgid "Product quantity"
+msgstr "Quantidade do produto"
+
+#: includes/class-productfields.php:153
+msgid "How much the pack holds, in the unit above. For example 250 for 250 g."
+msgstr "Quanto contém a embalagem, na unidade indicada acima. Por exemplo, 250 para 250 g."
+
+#: includes/class-productfields.php:166
+#: includes/class-productfields.php:567
+msgid "Reference quantity"
+msgstr "Quantidade de referência"
+
+#: includes/class-productfields.php:167
+msgid "Leave empty for 1 kg, 1 l, 1 m or 1 unit. Use 100 for 100 g or 100 ml on small packs."
+msgstr "Deixe vazio para 1 kg, 1 l, 1 m ou 1 unidade. Use 100 para 100 g ou 100 ml em embalagens pequenas."
+
+#: includes/class-productfields.php:170
+msgid "Default"
+msgstr "Predefinição"
+
+#: includes/class-productfields.php:181
+msgid "Sold by quantity"
+msgstr "Vendido por quantidade"
+
+#: includes/class-productfields.php:182
+msgid "This product is sold by weight, volume or length, so it needs a price per unit."
+msgstr "Este produto é vendido a peso, volume ou comprimento, por isso precisa de um preço por unidade."
+
+#: includes/class-productfields.php:189
+msgid "Delivery and type"
+msgstr "Entrega e tipo"
+
+#: includes/class-productfields.php:203
+msgid "Kind of product"
+msgstr "Tipo de produto"
+
+#: includes/class-productfields.php:205
+msgid "Goods"
+msgstr "Bens"
+
+#: includes/class-productfields.php:206
+msgid "Digital content"
+msgstr "Conteúdo digital"
+
+#: includes/class-productfields.php:207
+msgid "Service"
+msgstr "Serviço"
+
+#: includes/class-productfields.php:209
+msgid "Digital content and services can ask for the extra consent tick at checkout (Settings, Checkout)."
+msgstr "O conteúdo digital e os serviços podem pedir a caixa de consentimento extra no checkout (Definições, Checkout)."
+
+#: includes/class-productfields.php:249
+msgid "None"
+msgstr "Nenhum"
+
+#: includes/class-productfields.php:262
+msgid "Add or edit manufacturers"
+msgstr "Adicionar ou editar fabricantes"
+
+#: includes/class-productfields.php:268
+msgid "Identifier"
+msgstr "Identificador"
+
+#: includes/class-productfields.php:269
+msgid "Model, type, batch or serial number."
+msgstr "Modelo, tipo, lote ou número de série."
+
+#: includes/class-productfields.php:277
+msgid "Warnings and safety information"
+msgstr "Avisos e informações de segurança"
+
+#: includes/class-productfields.php:284
+msgid "Label image"
+msgstr "Imagem do rótulo"
+
+#: includes/class-productfields.php:287
+msgid "Choose image"
+msgstr "Escolher imagem"
+
+#: includes/class-productfields.php:288
+msgid "Remove"
+msgstr "Remover"
+
+#: includes/class-productfields.php:300
+#: includes/class-producttabs.php:123
+#: includes/class-producttabs.php:395
+msgid "Food information"
+msgstr "Informação alimentar"
+
+#: includes/class-productfields.php:304
+msgid "Food product"
+msgstr "Produto alimentar"
+
+#: includes/class-productfields.php:305
+msgid "Show the food information tab for this product."
+msgstr "Mostrar o separador de informação alimentar neste produto."
+
+#: includes/class-productfields.php:311
+#: includes/class-producttabs.php:330
+msgid "Name of the food"
+msgstr "Denominação do alimento"
+
+#: includes/class-productfields.php:312
+#: includes/class-producttabs.php:333
+msgid "Ingredients"
+msgstr "Ingredientes"
+
+#: includes/class-productfields.php:313
+#: includes/class-producttabs.php:350
+msgid "Net quantity"
+msgstr "Quantidade líquida"
+
+#: includes/class-productfields.php:314
+#: includes/class-producttabs.php:351
+msgid "Storage and use"
+msgstr "Conservação e utilização"
+
+#: includes/class-productfields.php:315
+msgid "Country of origin"
+msgstr "País de origem"
+
+#: includes/class-productfields.php:316
+msgid "Food business operator (name and address)"
+msgstr "Operador da empresa alimentar (nome e morada)"
+
+#: includes/class-productfields.php:326
+msgid "Write allergens in bold with <b>…</b>, for example <b>milk</b>."
+msgstr "Escreva os alergénios a negrito com <b>…</b>, por exemplo <b>leite</b>."
+
+#: includes/class-productfields.php:337
+msgid "Contains"
+msgstr "Contém"
+
+#: includes/class-productfields.php:338
+msgid "May contain traces of"
+msgstr "Pode conter vestígios de"
+
+#: includes/class-productfields.php:347
+msgid "No allergens"
+msgstr "Sem alergénios"
+
+#: includes/class-productfields.php:349
+msgid "This food has none of the 14 allergens."
+msgstr "Este alimento não tem nenhum dos 14 alergénios."
+
+#: includes/class-productfields.php:355
+msgid "Nutrition values per"
+msgstr "Valores nutricionais por"
+
+#: includes/class-productfields.php:383
+msgid "Alcohol by volume (%)"
+msgstr "Teor alcoólico (% vol.)"
+
+#: includes/class-productfields.php:384
+msgid "Only for drinks above 1.2%."
+msgstr "Só para bebidas com mais de 1,2 %."
+
+#: includes/class-productfields.php:543
+msgid "Unit (Mostrador)"
+msgstr "Unidade (Mostrador)"
+
+#: includes/class-productfields.php:544
+#: includes/class-productfields.php:569
+#: includes/class-productfields.php:581
+msgid "Same as the product"
+msgstr "Igual ao produto"
+
+#: includes/class-producttabs.php:212
+msgid "Responsible person in the EU"
+msgstr "Responsável na UE"
+
+#: includes/class-producttabs.php:217
+msgid "Product identification"
+msgstr "Identificação do produto"
+
+#: includes/class-producttabs.php:226
+msgid "Warnings and safety"
+msgstr "Avisos e segurança"
+
+#: includes/class-producttabs.php:267
+msgid "Warnings"
+msgstr "Avisos"
+
+#. translators: %s: list of allergens.
+#: includes/class-producttabs.php:338
+#, php-format
+msgid "Contains: %s"
+msgstr "Contém: %s"
+
+#: includes/class-producttabs.php:340
+msgid "No allergens."
+msgstr "Sem alergénios."
+
+#. translators: %s: list of allergens.
+#: includes/class-producttabs.php:344
+#, php-format
+msgid "May contain traces of: %s"
+msgstr "Pode conter vestígios de: %s"
+
+#: includes/class-producttabs.php:352
+msgid "Origin"
+msgstr "Origem"
+
+#: includes/class-producttabs.php:353
+msgid "Operator"
+msgstr "Operador"
+
+#. translators: %s: alcohol strength, a number.
+#: includes/class-producttabs.php:361
+msgid "Alcohol"
+msgstr "Álcool"
+
+#. translators: %s: alcohol strength, a number.
+#: includes/class-producttabs.php:361
+#, php-format
+msgid "%s %% vol"
+msgstr "%s %% vol."
+
+#. translators: %s: 100 g or 100 ml.
+#: includes/class-producttabs.php:371
+#, php-format
+msgid "Nutrition information (per %s)"
+msgstr "Informação nutricional (por %s)"
+
+#: includes/class-settings.php:133
+msgid "Order with obligation to pay"
+msgstr "Encomenda com obrigação de pagamento"
+
+#: includes/class-settings.php:134
+msgid "Buy and pay"
+msgstr "Comprar e pagar"
+
+#: includes/class-settings.php:135
+msgid "Confirm order and pay"
+msgstr "Confirmar encomenda e pagar"
+
+#: includes/class-settings.php:178
+msgid "24/48 hours"
+msgstr "24/48 horas"
+
+#: includes/class-settings.php:179
+msgid "2-4 working days"
+msgstr "2-4 dias úteis"
+
+#: includes/class-settings.php:180
+msgid "1-2 weeks"
+msgstr "1-2 semanas"
+
+#: includes/class-settings.php:181
+msgid "Made to order: 3-4 weeks"
+msgstr "Por encomenda: 3-4 semanas"
+
+#: includes/class-sitecheck.php:69
+#: includes/class-wizard.php:230
+msgid "Taxes"
+msgstr "Impostos"
+
+#: includes/class-sitecheck.php:83
+msgid "Ready"
+msgstr "Pronto"
+
+#: includes/class-sitecheck.php:84
+msgid "Check this"
+msgstr "Verificar"
+
+#: includes/class-sitecheck.php:85
+msgid "Not applicable"
+msgstr "Não aplicável"
+
+#. translators: 1: territory, 2: IGIC or IPSI.
+#: includes/class-sitecheck.php:127
+#: includes/class-wizard.php:291
+msgid "the Canary Islands"
+msgstr "as Ilhas Canárias"
+
+#: includes/class-sitecheck.php:305
+msgid "Taxes turned on"
+msgstr "Impostos ativados"
+
+#: includes/class-sitecheck.php:307
+msgid "WooCommerce adds tax to every order."
+msgstr "O WooCommerce acrescenta imposto a todas as encomendas."
+
+#: includes/class-sitecheck.php:307
+msgid "Taxes are turned off, so no VAT is charged."
+msgstr "Os impostos estão desativados, por isso não é cobrado IVA."
+
+#: includes/class-sitecheck.php:308
+#: includes/class-sitecheck.php:330
+#: includes/class-sitecheck.php:341
+#: includes/class-sitecheck.php:354
+#: includes/class-sitecheck.php:365
+#: includes/class-sitecheck.php:385
+#: includes/class-sitecheck.php:403
+#: includes/class-sitecheck.php:448
+msgid "Fix"
+msgstr "Corrigir"
+
+#: includes/class-sitecheck.php:315
+#: includes/class-sitecheck.php:327
+msgid "VAT rates"
+msgstr "Taxas de IVA"
+
+#: includes/class-sitecheck.php:329
+msgid "Spain has a 21 % rate."
+msgstr "Espanha tem uma taxa de 21 %."
+
+#: includes/class-sitecheck.php:329
+msgid "There is no 21 % VAT rate for Spain."
+msgstr "Não existe taxa de IVA de 21 % para Espanha."
+
+#: includes/class-sitecheck.php:338
+msgid "Prices with VAT"
+msgstr "Preços com IVA"
+
+#: includes/class-sitecheck.php:340
+msgid "Shoppers see the final price."
+msgstr "Os clientes veem o preço final."
+
+#: includes/class-sitecheck.php:340
+msgid "You show prices without VAT. Consumers must be shown the final price."
+msgstr "Mostra preços sem IVA. Os consumidores têm de ver o preço final."
+
+#: includes/class-sitecheck.php:350
+msgid "Order button"
+msgstr "Botão de encomenda"
+
+#. translators: %s: button text.
+#: includes/class-sitecheck.php:353
+#, php-format
+msgid "The button says \"%s\"."
+msgstr "O botão diz \"%s\"."
+
+#: includes/class-sitecheck.php:362
+msgid "Conditions"
+msgstr "Condições"
+
+#: includes/class-sitecheck.php:364
+msgid "Shoppers accept your purchase conditions at checkout."
+msgstr "Os clientes aceitam as suas condições de compra no checkout."
+
+#: includes/class-sitecheck.php:364
+msgid "You have no purchase conditions page at checkout."
+msgstr "Não tem página de condições de compra no checkout."
+
+#: includes/class-sitecheck.php:370
+msgid "Privacy policy"
+msgstr "Política de privacidade"
+
+#: includes/class-sitecheck.php:373
+msgid "Withdrawal information"
+msgstr "Informação sobre livre resolução"
+
+#: includes/class-sitecheck.php:376
+msgid "Shipping policy"
+msgstr "Política de envios"
+
+#: includes/class-sitecheck.php:381
+msgid "Legal pages"
+msgstr "Páginas legais"
+
+#. translators: %l: list of page names.
+#: includes/class-sitecheck.php:384
+msgid "The %l page is missing."
+msgstr "Falta a página %l."
+
+#. translators: %l: list of page names.
+#: includes/class-sitecheck.php:384
+msgid "Privacy, withdrawal and shipping pages are published."
+msgstr "As páginas de privacidade, livre resolução e envios estão publicadas."
+
+#: includes/class-sitecheck.php:391
+msgid "Publish your purchase conditions page first, then it goes in the email."
+msgstr "Publique primeiro a sua página de condições de compra, depois ela passa para o e-mail."
+
+#: includes/class-sitecheck.php:393
+msgid "The first order email carries your conditions."
+msgstr "O primeiro e-mail da encomenda leva as suas condições."
+
+#: includes/class-sitecheck.php:395
+msgid "Your customers don't get your conditions in writing."
+msgstr "Os seus clientes não recebem as suas condições por escrito."
+
+#: includes/class-sitecheck.php:400
+msgid "Order email"
+msgstr "E-mail da encomenda"
+
+#: includes/class-sitecheck.php:411
+msgid "Link to the ODR platform"
+msgstr "Ligação à plataforma de RLL"
+
+#: includes/class-sitecheck.php:413
+msgid "Your site links the European online dispute resolution platform, which closed on 20 July 2025. Remove the link."
+msgstr "O seu site liga à plataforma europeia de resolução de litígios em linha, que encerrou a 20 de julho de 2025. Remova a ligação."
+
+#: includes/class-sitecheck.php:413
+msgid "No page links the closed ODR platform."
+msgstr "Nenhuma página liga à plataforma de RLL encerrada."
+
+#: includes/class-sitecheck.php:423
+msgid "Withdrawal button"
+msgstr "Botão de livre resolução"
+
+#. translators: %s: plugin name.
+#: includes/class-sitecheck.php:426
+#, php-format
+msgid "%s adds the button."
+msgstr "%s acrescenta o botão."
+
+#. translators: %s: plugin name.
+#: includes/class-sitecheck.php:426
+msgid "The EU requires a withdrawal button from 19 June 2026. Spain hasn't yet written it into Spanish law."
+msgstr "A UE exige um botão de livre resolução a partir de 19 de junho de 2026. Espanha ainda não o incluiu na lei espanhola."
+
+#. translators: %d: number of products.
+#: includes/class-sitecheck.php:434
+msgid "Unit price"
+msgstr "Preço por unidade"
+
+#. translators: %d: number of products.
+#: includes/class-sitecheck.php:434
+msgid "Every product sold by quantity shows its unit price."
+msgstr "Todos os produtos vendidos por quantidade mostram o preço por unidade."
+
+#. translators: %d: number of products.
+#: includes/class-sitecheck.php:434
+#, php-format
+msgid "%d product without a unit price."
+msgid_plural "%d products without a unit price."
+msgstr[0] "%d produto sem preço por unidade."
+msgstr[1] "%d produtos sem preço por unidade."
+
+#. translators: %d: number of products.
+#: includes/class-sitecheck.php:436
+msgid "Every physical product has a manufacturer."
+msgstr "Todos os produtos físicos têm fabricante."
+
+#. translators: %d: number of products.
+#: includes/class-sitecheck.php:436
+#, php-format
+msgid "%d product without a manufacturer."
+msgid_plural "%d products without a manufacturer."
+msgstr[0] "%d produto sem fabricante."
+msgstr[1] "%d produtos sem fabricante."
+
+#. translators: %d: number of products.
+#: includes/class-sitecheck.php:438
+msgid "Every food product lists its allergens."
+msgstr "Todos os produtos alimentares indicam os seus alergénios."
+
+#. translators: %d: number of products.
+#: includes/class-sitecheck.php:438
+#, php-format
+msgid "%d food without allergens shown."
+msgid_plural "%d foods without allergens shown."
+msgstr[0] "%d alimento sem alergénios indicados."
+msgstr[1] "%d alimentos sem alergénios indicados."
+
+#. translators: %s: delivery time.
+#: includes/class-sitecheck.php:447
+#, php-format
+msgid "Default: %s."
+msgstr "Predefinição: %s."
+
+#. translators: %s: delivery time.
+#: includes/class-sitecheck.php:447
+msgid "There is no default delivery time."
+msgstr "Não há prazo de entrega predefinido."
+
+#: includes/class-sitecheck.php:535
+msgid "Turned off in Settings."
+msgstr "Desativado nas Definições."
+
+#: includes/class-styles.php:33
+msgid "Plain"
+msgstr "Simples"
+
+#: includes/class-styles.php:36
+msgid "Small grey text that takes the theme's fonts."
+msgstr "Texto pequeno e cinzento, com o tipo de letra do tema."
+
+#: includes/class-styles.php:39
+msgid "Outline"
+msgstr "Contorno"
+
+#: includes/class-styles.php:42
+msgid "Thin borders around the notes and tabs."
+msgstr "Contornos finos à volta das notas e dos separadores."
+
+#: includes/class-styles.php:56
+msgid "Pills"
+msgstr "Etiquetas"
+
+#: includes/class-styles.php:57
+msgid "Rounded badges for unit price, delivery and VAT."
+msgstr "Distintivos arredondados para preço por unidade, entrega e IVA."
+
+#: includes/class-styles.php:60
+msgid "Sheet"
+msgstr "Ficha"
+
+#: includes/class-styles.php:61
+msgid "A tidy data sheet with icon allergens."
+msgstr "Uma ficha de dados arrumada, com ícones de alergénios."
+
+#: includes/class-styles.php:64
+msgid "Card"
+msgstr "Cartão"
+
+#: includes/class-styles.php:65
+msgid "Soft cards with shadow for the tabs."
+msgstr "Cartões suaves com sombra para os separadores."
+
+#: includes/class-styles.php:68
+msgid "Label"
+msgstr "Rótulo"
+
+#: includes/class-styles.php:69
+msgid "Looks like a printed product label."
+msgstr "Parece um rótulo de produto impresso."
+
+#: includes/class-unitprice.php:43
+msgid "unit"
+msgstr "unidade"
+
+#. translators: %s: unit price, like "8,90 € / kg".
+#: includes/class-unitprice.php:203
+#, php-format
+msgid "from %s"
+msgstr "desde %s"
+
+#: includes/class-wizard.php:212
+msgid "Back"
+msgstr "Voltar"
+
+#: includes/class-wizard.php:215
+msgid "Finish"
+msgstr "Concluir"
+
+#: includes/class-wizard.php:217
+msgid "Next"
+msgstr "Seguinte"
+
+#: includes/class-wizard.php:219
+msgid "Skip this step"
+msgstr "Saltar este passo"
+
+#: includes/class-wizard.php:231
+msgid "Checkout and order"
+msgstr "Checkout e encomenda"
+
+#: includes/class-wizard.php:232
+msgid "Your products"
+msgstr "Os seus produtos"
+
+#: includes/class-wizard.php:261
+msgid "Steps"
+msgstr "Passos"
+
+#: includes/class-wizard.php:266
+msgid "Exit"
+msgstr "Sair"
+
+#: includes/class-wizard.php:274
+msgid "Your shop, right now"
+msgstr "A sua loja, neste momento"
+
+#: includes/class-wizard.php:274
+msgid "Your shop on a phone"
+msgstr "A sua loja no telemóvel"
+
+#. translators: 1: step number, 2: number of steps.
+#: includes/class-wizard.php:310
+#, php-format
+msgid "Step %1$d of %2$d"
+msgstr "Passo %1$d de %2$d"
+
+#: includes/class-wizard.php:344
+msgid "We turn on WooCommerce taxes and create the VAT rates: standard 21 %, reduced 10 %, super-reduced 4 % and 0 %. Shipments to the Canary Islands, Ceuta and Melilla go without VAT."
+msgstr "Ativamos os impostos do WooCommerce e criamos as taxas de IVA: normal 21 %, reduzida 10 %, superreduzida 4 % e 0 %. Os envios para as Ilhas Canárias, Ceuta e Melilha vão sem IVA."
+
+#: includes/class-wizard.php:346
+msgid "I enter prices with VAT included"
+msgstr "Introduzo os preços com IVA incluído"
+
+#: includes/class-wizard.php:347
+msgid "Show prices with VAT in the shop and cart"
+msgstr "Mostrar preços com IVA na loja e no carrinho"
+
+#. translators: %d: number of tax rates.
+#: includes/class-wizard.php:352
+#, php-format
+msgid "You already have %d rate for Spain. We won't touch it. Shall we add the missing ones?"
+msgid_plural "You already have %d rates for Spain. We won't touch them. Shall we add the missing ones?"
+msgstr[0] "Já tem %d taxa para Espanha. Não lhe vamos mexer. Acrescentamos as que faltam?"
+msgstr[1] "Já tem %d taxas para Espanha. Não lhes vamos mexer. Acrescentamos as que faltam?"
+
+#: includes/class-wizard.php:358
+msgid "Add the missing ones"
+msgstr "Acrescentar as que faltam"
+
+#: includes/class-wizard.php:359
+msgid "Leave them as they are"
+msgstr "Deixá-las como estão"
+
+#: includes/class-wizard.php:364
+msgid "Nothing is missing."
+msgstr "Não falta nada."
+
+#: includes/class-wizard.php:371
+msgid "Your shop isn't in the VAT area, so this step doesn't change your taxes. Set your IGIC or IPSI rates in WooCommerce → Settings → Tax."
+msgstr "A sua loja não está na zona do IVA, por isso este passo não altera os seus impostos. Defina as taxas de IGIC ou IPSI em WooCommerce → Definições → Impostos."
+
+#: includes/class-wizard.php:422
+msgid "You don't have purchase conditions or withdrawal pages yet. The shop check will remind you."
+msgstr "Ainda não tem páginas de condições de compra nem de livre resolução. A revisão da loja vai lembrá-lo."
+
+#: includes/class-wizard.php:454
+msgid "VAT rates for Spain"
+msgstr "Taxas de IVA para Espanha"
+
+#. translators: %s: button text.
+#: includes/class-wizard.php:460
+#, php-format
+msgid "Button \"%s\""
+msgstr "Botão \"%s\""
+
+#. translators: %s: delivery time.
+#: includes/class-wizard.php:470
+#, php-format
+msgid "Delivery time: %s"
+msgstr "Prazo de entrega: %s"
+
+#: includes/class-wizard.php:479
+msgid "Your conditions in the order email"
+msgstr "As suas condições no e-mail da encomenda"
+
+#: includes/class-wizard.php:488
+msgid "Done"
+msgstr "Concluído"
+
+#: includes/class-wizard.php:488
+msgid "Done. Your shop now shows all this."
+msgstr "Concluído. A sua loja já mostra tudo isto."
+
+#: includes/class-wizard.php:492
+msgid "Go to my products"
+msgstr "Ir para os meus produtos"
+
+#: assets/js/blocks.js:17
+msgid "Product safety details show here once the product has a manufacturer or warnings."
+msgstr "Os detalhes de segurança do produto aparecem aqui quando o produto tem fabricante ou avisos."
+
+#: assets/js/blocks.js:18
+msgid "Food information shows here once the product is marked as food."
+msgstr "A informação alimentar aparece aqui quando o produto é marcado como alimento."
+
+#: blocks/allergen-filter/block.json
+msgctxt "block title"
+msgid "Without allergens"
+msgstr "Sem alergénios"
+
+#: blocks/allergen-filter/block.json
+msgctxt "block description"
+msgid "Lets shoppers hide products that contain an allergen."
+msgstr "Permite aos clientes ocultar produtos que contêm um alergénio."
+
+#: blocks/food-info/block.json
+msgctxt "block title"
+msgid "Food information"
+msgstr "Informação alimentar"
+
+#: blocks/food-info/block.json
+msgctxt "block description"
+msgid "Ingredients, allergens and nutrition of the current product."
+msgstr "Ingredientes, alergénios e nutrição do produto atual."
+
+#: blocks/product-safety/block.json
+msgctxt "block title"
+msgid "Product safety"
+msgstr "Segurança do produto"
+
+#: blocks/product-safety/block.json
+msgctxt "block description"
+msgid "Manufacturer, EU responsible person, identification and warnings of the current product."
+msgstr "Fabricante, responsável na UE, identificação e avisos do produto atual."
+
+#. translators: %s: number of other products or pages.
+#: includes/class-admin.php:385
+#, php-format
+msgid "and %s more"
+msgid_plural "and %s more"
+msgstr[0] "e mais %s"
+msgstr[1] "e mais %s"

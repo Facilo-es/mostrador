@@ -1,0 +1,102 @@
+/* Mostrador admin screens, Design B "Asistente". */
+.mostrador-wrap{--mac:#6c3fc9;max-width:1080px;color:#1e1e1e}
+.mostrador-top{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:14px 0 6px}
+.mostrador-brand{display:flex;align-items:center;gap:9px;font-weight:700;font-size:16px}
+.mostrador-brand i{width:28px;height:28px;border-radius:8px;background:var(--mac);display:grid;place-items:center}
+.mostrador-nav{display:flex;gap:4px;flex-wrap:wrap}
+.mostrador-nav a{padding:7px 12px;border-radius:99px;text-decoration:none;color:#50575e;font-weight:500}
+.mostrador-nav a:hover,.mostrador-nav a:focus{background:#efe9fb;color:#1e1e1e}
+.mostrador-nav a.is-current{background:var(--mac);color:#fff}
+.mostrador-head h1{font-size:26px;line-height:1.2;font-weight:700;margin:14px 0 4px;padding:0}
+.mostrador-head p{color:#50575e;font-size:14px;margin:0 0 12px;max-width:70ch}
+.mostrador-btn{display:inline-flex;align-items:center;height:42px;padding:0 20px;border-radius:10px;border:0;background:var(--mac);color:#fff;font-weight:600;font-size:14px;text-decoration:none;cursor:pointer;white-space:nowrap}
+.mostrador-btn:hover,.mostrador-btn:focus{background:#5a32ad;color:#fff}
+.mostrador-btn:focus{box-shadow:0 0 0 3px #6c3fc955;outline:0}
+.mostrador-hero{display:flex;align-items:center;justify-content:space-between;gap:24px;background:linear-gradient(160deg,#efe9fb,#f7f3ee);border:1px solid #e6def7;border-radius:16px;padding:24px 28px;margin:18px 0 26px}
+.mostrador-hero h2{font-size:20px;margin:0 0 6px}
+.mostrador-hero p{margin:0 0 10px;color:#3c3c44;max-width:60ch}
+.mostrador-meter{height:8px;border-radius:9px;background:#fff;width:min(340px,100%);overflow:hidden}
+.mostrador-meter span{display:block;height:100%;background:#2fa35a;border-radius:9px}
+.mostrador-h2{font-size:15px;margin:0 0 12px}
+.mostrador-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-bottom:24px}
+.mostrador-card{background:#fff;border:1px solid #ececf0;border-radius:14px;padding:16px 18px}
+.mostrador-card-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.mostrador-card p{margin:8px 0 0;color:#50575e}
+.mostrador-pill{font-size:11px;font-weight:700;padding:2px 9px;border-radius:99px;flex:none}
+.mostrador-pill.is-on{background:#e3f4e8;color:#1f7a3f}
+.mostrador-pill.is-off{background:#f0f0f1;color:#50575e}
+.mostrador-foot{color:#50575e}
+.mostrador-disclaimer{display:flex;gap:10px;font-size:13.5px;color:#50575e;background:#fff;border-radius:12px;padding:12px 14px;border:1px solid #ececf0;max-width:70ch}
+.mostrador-disclaimer::before,.mostrador-help::before{content:"i";flex:none;width:20px;height:20px;border-radius:50%;background:#ececf0;color:#50575e;font:700 12px/20px Georgia,serif;text-align:center}
+.mostrador-summary{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 8px}
+.mostrador-status{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:3px 10px;border-radius:99px;white-space:nowrap}
+.mostrador-status i{width:8px;height:8px;border-radius:50%;background:currentColor}
+.mostrador-status.is-ready{background:#e3f4e8;color:#1f7a3f}
+.mostrador-status.is-review{background:#fff2e0;color:#8a4b00}
+.mostrador-status.is-na{background:#f0f0f1;color:#50575e}
+.mostrador-group{margin-top:22px}
+.mostrador-group h2{font-size:15px;margin:0 0 10px}
+.mostrador-checks{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.mostrador-check{display:flex;align-items:center;gap:14px;background:#fff;border:1px solid #ececf0;border-radius:12px;padding:13px 16px;margin:0}
+.mostrador-check.is-review{border-color:#f3d9b1}
+.mostrador-dot{width:10px;height:10px;border-radius:50%;flex:none;background:#c3c4c7}
+.is-ready>.mostrador-dot{background:#2fa35a;box-shadow:0 0 0 4px #2fa35a22}
+.is-review>.mostrador-dot{background:#d97706;box-shadow:0 0 0 4px #d9770622}
+.mostrador-check-text{flex:1;min-width:0}
+.mostrador-check-text b{display:block}
+.mostrador-check-text span{color:#50575e}
+.mostrador-check-text .mostrador-count{display:inline-block;margin-left:6px;padding:0 8px;border-radius:999px;background:#fdf1de;color:#8a5a12;font-size:12px;line-height:20px;font-weight:600;vertical-align:1px}
+.mostrador-check-items{margin:6px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px}
+.mostrador-check-items li{margin:0}
+.mostrador-check-items .mostrador-more{color:#646970}
+.mostrador-check .button{flex:none}
+.mostrador-check .button-primary{background:var(--mac);border-color:var(--mac)}
+.mostrador-tabs{margin:10px 0 0}
+.mostrador-form{background:#fff;border:1px solid #ececf0;border-top:0;border-radius:0 0 14px 14px;padding:8px 24px 4px}
+.mostrador-field{padding:18px 0;border-bottom:1px solid #f0f0f1}
+.mostrador-field:last-of-type{border-bottom:0}
+.mostrador-label{display:block;font-weight:600;font-size:14px;margin:0 0 10px}
+.mostrador-choose{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px;margin-bottom:10px}
+.mostrador-choose.is-one{grid-template-columns:minmax(0,1fr);max-width:520px}
+.mostrador-choose label{display:flex;align-items:center;gap:10px;min-height:46px;padding:8px 14px;background:#fff;border:1.5px solid #e2e2e6;border-radius:12px;cursor:pointer;font-weight:500}
+.mostrador-choose label:has(input:checked){border-color:var(--mac);background:#faf8fe;box-shadow:0 0 0 3px #6c3fc922}
+.mostrador-choose input{accent-color:var(--mac);margin:0}
+.mostrador-sw{display:flex;align-items:center;gap:14px;padding:13px 16px;background:#fff;border:1.5px solid #e2e2e6;border-radius:12px;margin-bottom:8px;cursor:pointer;max-width:640px}
+.mostrador-sw>span{flex:1;font-weight:500}
+.mostrador-sw small{display:block;font-weight:400;color:#6b6b73;font-size:12.5px}
+.mostrador-sw input[type=checkbox]{appearance:none;-webkit-appearance:none;width:42px;height:24px;border-radius:99px;background:#d5d5da;position:relative;cursor:pointer;flex:none;margin:0;border:0;box-shadow:none;transition:background .15s}
+.mostrador-sw input[type=checkbox]::before{display:none}
+.mostrador-sw input[type=checkbox]::after{content:"";position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:50%;background:#fff;box-shadow:0 1px 2px #0003;transition:left .15s}
+.mostrador-sw input[type=checkbox]:checked{background:var(--mac)}
+.mostrador-sw input[type=checkbox]:checked::after{left:21px}
+.mostrador-sw input[type=checkbox]:focus{box-shadow:0 0 0 3px #6c3fc955;outline:0}
+.mostrador-select{min-width:260px;min-height:38px;border-radius:8px}
+.mostrador-help{display:flex;gap:10px;font-size:13px;color:#50575e;background:#f8f8fa;border-radius:12px;padding:10px 14px;max-width:640px}
+.mostrador-note{font-size:13px;color:#7a5200;background:#fff7e6;border-radius:10px;padding:10px 14px;max-width:640px}
+.mostrador-check-line{display:block;margin:4px 0}
+.mostrador-styles{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.mostrador-style{position:relative;display:block;background:#fff;border:1.5px solid #e2e2e6;border-radius:14px;padding:12px;cursor:pointer}
+.mostrador-style:has(input:checked){border-color:var(--mac);box-shadow:0 0 0 3px #6c3fc922}
+.mostrador-style input{position:absolute;opacity:0}
+.mostrador-style input:focus-visible+.mostrador-mini{outline:2px solid var(--mac)}
+.mostrador-style small{display:block;color:#6b6b73;margin-top:2px}
+.mostrador-style.is-pro{cursor:default;opacity:.85}
+.mostrador-mini{height:70px;border-radius:9px;background:#faf7f2;padding:12px;display:flex;flex-direction:column;gap:7px;margin-bottom:10px}
+.mostrador-mini i{display:block;height:8px;border-radius:9px;background:#e7ded2;width:70%}
+.mostrador-mini i:nth-child(2){width:45%}
+.mostrador-style-contorno .mostrador-mini i{background:transparent;border:1.5px solid #cbbfae;height:10px}
+.mostrador-style-pildoras .mostrador-mini i:not(:first-child){background:#e4dcf6;height:12px;width:38%}
+.mostrador-style-ficha .mostrador-mini i{width:100%;height:12px;background:#efe9fb}
+.mostrador-style-tarjeta .mostrador-mini i{background:#fff;box-shadow:0 2px 6px #0001;height:12px}
+.mostrador-style-etiqueta .mostrador-mini{background:#fff;border:2px solid #1e1e1e}
+.mostrador-style-etiqueta .mostrador-mini i{background:#1e1e1e;height:5px}
+.mostrador-pro-tag{position:absolute;top:10px;right:10px;font-size:11px;font-weight:700;padding:2px 7px;border-radius:99px;background:#1e1e1e;color:#fff}
+.mostrador-pro{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:24px;margin-top:18px}
+.mostrador-ticks{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.mostrador-ticks li{display:flex;gap:12px;align-items:center;background:#fff;border-radius:12px;padding:13px 16px;border:1px solid #ececf0;font-weight:500;margin:0}
+.mostrador-ticks li::before{content:"✓";width:24px;height:24px;border-radius:50%;background:#e3f4e8;color:#1f7a3f;font-weight:800;text-align:center;line-height:24px;flex:none}
+.mostrador-prices{background:linear-gradient(160deg,#efe9fb,#f7f3ee);border:1px solid #e6def7;border-radius:16px;padding:24px;align-self:start}
+.mostrador-price{background:#fff;border-radius:12px;padding:14px 16px;margin-bottom:10px;font-size:16px}
+.mostrador-prices p{color:#50575e}
+.mostrador-notice a{font-weight:600}
+@media (max-width:782px){.mostrador-hero{flex-direction:column;align-items:flex-start}.mostrador-pro{grid-template-columns:minmax(0,1fr)}.mostrador-check{flex-wrap:wrap}.mostrador-form{padding:4px 14px}}

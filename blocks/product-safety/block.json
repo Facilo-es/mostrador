@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "mostrador/product-safety",
+	"title": "Product safety",
+	"category": "woocommerce",
+	"icon": "shield",
+	"description": "Manufacturer, EU responsible person, identification and warnings of the current product.",
+	"textdomain": "mostrador",
+	"attributes": {
+		"productId": { "type": "number", "default": 0 }
+	},
+	"supports": { "html": false, "align": false, "spacing": { "margin": true, "padding": true } },
+	"usesContext": [ "postId" ],
+	"editorScript": "mostrador-blocks"
+}

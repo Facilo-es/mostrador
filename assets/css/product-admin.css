@@ -1,0 +1,13 @@
+/* Mostrador panel in the product editor. */
+#mostrador_product_data .mostrador-h{margin:16px 12px 4px;padding:0;font-size:13px;font-weight:600;color:#1e1e1e}
+#mostrador_product_data .mostrador-h:first-child{margin-top:12px}
+#mostrador_product_data .mostrador-checks label{display:inline-block;width:auto;margin:0 14px 6px 0;float:none}
+#mostrador_product_data .mostrador-checks input{margin-right:4px}
+#mostrador_product_data .mostrador-image-preview img{display:block;max-width:150px;height:auto;margin:6px 0;border-radius:6px;border:1px solid #dcdcde}
+#mostrador_product_data .mostrador-image-clear{color:#b32d2e;margin-left:8px}
+#mostrador_product_data table.mostrador-nutrition{margin:4px 12px 12px;border-collapse:collapse}
+#mostrador_product_data table.mostrador-nutrition th{text-align:left;font-weight:400;padding:3px 12px 3px 0}
+#mostrador_product_data table.mostrador-nutrition input{width:90px}
+#mostrador_product_data .mostrador-food[hidden]{display:none}
+#woocommerce-product-data ul.wc-tabs li.mostrador_options a::before{content:"\f513"}
+.mostrador-variation{clear:both;padding-top:6px}
