@@ -1,6 +1,6 @@
 # Security
 
-Please report security problems to support@facilo.es. We answer within 2 working days.
+Please report security problems to support@facilo.es, and we will reply by email.
 
 ## Scope
 
